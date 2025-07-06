@@ -1,13 +1,13 @@
 import asyncio
 from os import getenv
 from dotenv import load_dotenv
-from aiogram import Bot, Dispatcher, html
+from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
 from bot_menyu import set_bot_menu
-from handlers_router.commands import router as commands_router
-from handlers_router.handlers import router as handlers_router
+from commands import router as commands_router
+from handlers import router as handlers_router
 load_dotenv()
 TOKEN = getenv("BOT_TOKEN")
 

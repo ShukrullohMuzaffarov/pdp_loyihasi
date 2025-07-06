@@ -1,10 +1,10 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-about_company = KeyboardButton(text="информация про компанию")
-mentorlar = KeyboardButton(text="наши преподы")
-kurslar = KeyboardButton(text="наши курсы")
-contact = KeyboardButton(text="контакт/местоположение")
-languige = KeyboardButton(text="рус/eng ЯЗ")
+about_company = KeyboardButton(text="Информация про компанию")
+mentorlar = KeyboardButton(text="Наши преподы🎓")
+kurslar = KeyboardButton(text="Наши курсы")
+contact = KeyboardButton(text="Контакт/Местоположение")
+languige = KeyboardButton(text="Рус/Еng Язык")
 start_button = ReplyKeyboardMarkup(
     keyboard=[
         [about_company, mentorlar],
@@ -14,18 +14,18 @@ start_button = ReplyKeyboardMarkup(
 )
 
 
-python_junior = KeyboardButton(text="пайтон джуниор")
-fronted_junior = KeyboardButton(text="фронтед джуниор")
-robototexnika = KeyboardButton(text="робототехника")
-scratch = KeyboardButton(text="скретч")
-back =KeyboardButton(text="🔙назад")
+python_junior = KeyboardButton(text="Пайтон Джуниор")
+fronted_junior = KeyboardButton(text="Фронтед Джуниор")
+robototexnika = KeyboardButton(text="Робототехника")
+scratch = KeyboardButton(text="Скретч")
+back =KeyboardButton(text="🔙Назад")
 
 kurslarimiz = ReplyKeyboardMarkup(
     keyboard=[
         [python_junior, fronted_junior],
         [robototexnika, scratch],
         [back]
-    ]
+    ], resize_keyboard=True
 )
 
 
@@ -33,7 +33,7 @@ about_company1 = KeyboardButton(text="Company Information")
 mentorlar1 = KeyboardButton(text="Our Teachers")
 kurslar1 = KeyboardButton(text="Our Courses")
 contact1 = KeyboardButton(text="Contact/Location")
-languige1 = KeyboardButton(text="rus/eng anguige")
+languige1 = KeyboardButton(text="Rus/Eng languige")
 start_button1 = ReplyKeyboardMarkup(
     keyboard=[
         [about_company1, mentorlar1],
@@ -51,10 +51,10 @@ language = ReplyKeyboardMarkup(
 )
 
 
-python_junior1 = KeyboardButton(text="python Junior")
-fronted_junior1 = KeyboardButton(text="fronted Junior")
-robototexnika1 = KeyboardButton(text="robotics")
-scratch1 = KeyboardButton(text="scratch")
+python_junior1 = KeyboardButton(text="Python Junior")
+fronted_junior1 = KeyboardButton(text="Fronted Junior")
+robototexnika1 = KeyboardButton(text="Robotics")
+scratch1 = KeyboardButton(text="Scratch")
 back =KeyboardButton(text="Back")
 
 kurslarimiz1 = ReplyKeyboardMarkup(
